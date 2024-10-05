@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover a datepicker UI built with HTML and CSS. Easily select dates with an intuitive interface."
+    />
+    <title>Roadmap Datepicker UI - Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div
+      class="datepicker"
+      role="dialog"
+      aria-labelledby="datepicker-title"
+      aria-modal="true"
+    >
+      <div class="datepicker-input">
+        <input type="text" placeholder="dd/mm/yyyy" aria-label="Date Picker" />
+        <button class="datepicker-icon" aria-label="Open calendar">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4klEQVR4nO2awQqDMBBE5/M8+f/nNH7HiKAimqBNle6u82APNbLxMUnqQeA6HYAPAM6V5mt38XT/lbSZZDuZl/4rS/Pab+v9/Yn0AIZCvPvaT3R3LZzdN8zPfOCKhCURAsglkbMorS0t1sZfI5KMHb9sFel2kz3xh5i+6N8sYg1KxFsidFYHwol4gRIxBl+fCK1s5l8TCSdiYWxCIlQi0NIi6ujUoo5faI/wyT1iYWxCIoyWCKO8NDKKSJilVUIiUCLQ0mK0U4veRaxBiRiD4RPJf9zQrZVLIr0zmVz7hEPAACM+lmuVp/4UlgAAAABJRU5ErkJggg=="
+            alt="Calendar Icon - Open Calendar"
+          />
+        </button>
+      </div>
+
+      <div class="calendar" role="grid">
+        <div class="calendar-header">
+          <button class="prev" aria-label="Previous month">&lt;</button>
+          <span class="month-year" id="datepicker-title">September 2024</span>
+          <button class="next" aria-label="Next month">&gt;</button>
+        </div>
+        <div class="calendar-body">
+          <table role="grid" aria-labelledby="datepicker-title">
+            <thead>
+              <tr class="day-names">
+                <th scope="col">S</th>
+                <th scope="col">M</th>
+                <th scope="col">T</th>
+                <th scope="col">W</th>
+                <th scope="col">T</th>
+                <th scope="col">F</th>
+                <th scope="col">S</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td role="gridcell">1</td>
+                <td role="gridcell">2</td>
+                <td role="gridcell">3</td>
+                <td role="gridcell">4</td>
+                <td role="gridcell">5</td>
+                <td role="gridcell">6</td>
+                <td role="gridcell">7</td>
+              </tr>
+              <tr>
+                <td role="gridcell">8</td>
+                <td role="gridcell">9</td>
+                <td role="gridcell">10</td>
+                <td role="gridcell">11</td>
+                <td role="gridcell">12</td>
+                <td role="gridcell">13</td>
+                <td role="gridcell">14</td>
+              </tr>
+              <tr>
+                <td role="gridcell">15</td>
+                <td role="gridcell">16</td>
+                <td role="gridcell">17</td>
+                <td role="gridcell">18</td>
+                <td role="gridcell">19</td>
+                <td role="gridcell">20</td>
+                <td role="gridcell">21</td>
+              </tr>
+              <tr>
+                <td role="gridcell">22</td>
+                <td role="gridcell">23</td>
+                <td role="gridcell">24</td>
+                <td role="gridcell">25</td>
+                <td role="gridcell">26</td>
+                <td role="gridcell">27</td>
+                <td role="gridcell">28</td>
+              </tr>
+              <tr>
+                <td role="gridcell">29</td>
+                <td role="gridcell">30</td>
+                <td role="gridcell">31</td>
+                <td role="gridcell"></td>
+                <td role="gridcell"></td>
+                <td role="gridcell"></td>
+                <td role="gridcell"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
